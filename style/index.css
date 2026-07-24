@@ -37,14 +37,47 @@
   padding-right: 80px;
 }
 
-/*"""""""
-""""""""*/
+.section-formulaire {
+  background-color: #1f2031; 
+  text-align: center;         
+  padding: 60px 20px;
+}
 
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin: auto;
+.section-formulaire h2 {
   color: white;
+  margin-bottom: 30px;
+}
+
+.conteneur-formulaire {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;       
+  max-width: 600px;          
+  margin: 0 auto;            
+  gap: 20px;                 
+}
+
+.conteneur-mail_nom {
+  display: flex;
+  flex-direction: row;    
+  width: 100%;               
+  gap: 20px;                 
+}
+
+.champ {
+  display: flex;
+  flex-direction: column;    
+  align-items: flex-start;   
+  width: 100%;               
+  color: white;
+  gap: 5px;
+}
+
+.champ input, 
+.champ textarea {
+  width: 100%;               
+  box-sizing: border-box;    
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
