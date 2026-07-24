@@ -17,12 +17,12 @@
   margin-bottom: 15px;
 }
 
-.accueil-introduction {
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  align-items: flex-start;
-  margin: auto;
+@media screen and (max-width: 996px) {
+  .accueil-introduction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .accueil-introduction h1 {

@@ -30,6 +30,7 @@ table{
 
 caption {
   margin-bottom: 30px;
+  color: white;
 
 }
 
@@ -37,6 +38,11 @@ td, th {
   border: 3px solid black;
   padding: 60px;
   margin: 30px;
+  color: white;
 }
 
-
+@media screen and (max-width: 996px) {
+  .tarif {
+    display: none;
+  }
+}
