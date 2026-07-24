@@ -34,7 +34,6 @@
              
                 <a href="#contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
 
-            </form>
             </div>
             <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
         </section>
@@ -55,14 +54,24 @@
         <section id="contact" class="section-formulaire">
             <h2>Parlons de votre projet</h2>
                 <form method="get" action="">
-                    <label for="nom">nom</label>  <br><input type="text" name="nom" id="nom" required>
-              
-                    <label for="email">email</label>  <br><input type="email" name="email" id="email" required>
-
+                <div class="conteneur-formulaire">
+                    <div class="conteneur-mail_nom">
+                        <div class="champ">
+                            <label for="nom">nom</label>
+                            <input type="text" name="nom" id="nom" required>
+                        </div>
+                        <div class="champ">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="conteneur-message">
                     <label for="message">message</label><br>
                         <textarea name="message" id="message" required></textarea>
-   
-                    <input class="cta" type="submit" value="Envoyer"/>
+                </div>
+                    <div class="bouton-envoyer"><input class="cta" type="submit" value="Envoyer"/></div>
                 </form>
 
         </section>
